@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: libdrm-kms
+Description: DRM/KMS library
+Requires.private: libdrm
+Version: @VERSION@
+Cflags: -I${includedir}
+Libs: -ldrm-kms
